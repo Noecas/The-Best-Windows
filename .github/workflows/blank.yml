@@ -1,4 +1,4 @@
-name: Tailscale - Docker
+name: Tailscale Windows 11 - Docker
 
 on: 
   workflow_dispatch:
