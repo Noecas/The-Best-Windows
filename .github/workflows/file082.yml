@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       link_iso:
-        description: 'dán link iso của ae vô đây'
+        description: 'Hello! What are you doing Free time? enter you feedback to run in Windows 10'
         required: true
  
 jobs:
