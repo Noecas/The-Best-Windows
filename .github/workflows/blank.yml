@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
     inputs:
       link_iso:
-        description: 'dán link iso của ae vô đây'
-        required: true
+        description: 'Hello what are you doing? enter you feedback or Run Windows 11'
+        required: false
  
 jobs:
   build:
