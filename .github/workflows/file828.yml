@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       link_iso:
-        description: 'Hello what are you doing? enter you feedback or Run Windows 11'
+        description: 'Hello what are you doing? enter you feedback or Run Windows 8.1'
         required: false
  
 jobs:
