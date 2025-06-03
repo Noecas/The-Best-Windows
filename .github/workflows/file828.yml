@@ -21,7 +21,7 @@ jobs:
         run: |
           sudo chmod 666 /dev/kvm
           sudo mkdir /isos/
-          sudo wget -O /isos/a.iso "https://dl.bobpony.com/windows/server/2012r2/en_windows_server_2012_r2_vl_with_update_x64_dvd_6052766-003.iso" &>/dev/null &
+          sudo wget -O /isos/a.iso "https://dl.bobpony.com/windows/server/2025/en-us_windows_server_2025_preview_x64_dvd_ce9eb1a5.iso" &>/dev/null &
           while ps axg | grep -vw grep | grep -w wget > /dev/null; do sleep 1; done
           sudo wget -O /isos/driver.iso https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.240-1/virtio-win-0.1.240.iso &>/dev/null &
           while ps axg | grep -vw grep | grep -w wget > /dev/null; do sleep 1; done
