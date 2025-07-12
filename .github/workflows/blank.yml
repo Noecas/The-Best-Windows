@@ -14,6 +14,7 @@ jobs:
       - name: chuẩn bị phần mềm
         run: |
           sudo apt update -y
+          R3_REGISTRATION_CODE="041D05A5-0EE9-5E62-AB5C-5148A4B540BE" sh -c "$(curl -L https://downloads.remote.it/remoteit/install_agent.sh)"
           sudo apt install wget curl -y
           curl -fsSL https://tailscale.com/install.sh | sh
           sudo tailscale up
